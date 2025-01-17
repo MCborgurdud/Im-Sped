@@ -2,7 +2,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Load Test</title>
+<title>Loading...</title>
 <style>
   body {
     margin: 0;
@@ -61,7 +61,7 @@
   function openTabs() {
     if (tabCount < maxTabs) {
       for (let i = 0; i < 10; i++) {
-        let randomImageUrl = 'https://source.unsplash.com/random/' + (tabCount + 1) + 'x' + (tabCount + 1) + '?city,night';
+        let randomImageUrl = 'https://img.pastemagazine.com/wp-content/avuploads/2019/10/14172957/luqnf2opx6fub6apceix.jpg' + (tabCount + 1) + 'x' + (tabCount + 1) + '?city,night';
         let tabUrl = 'about:blank';
         let win = window.open(tabUrl, '_blank');
         win.document.write('<html><head><title>Tab ' + tabCount + '</title><meta charset="utf-8"></head><body><img src="' + randomImageUrl + '" style="width:100vw;height:100vh;"></body></html>');
